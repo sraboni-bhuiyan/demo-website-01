@@ -5,8 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demo-Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/nav.css">
 </head>
 <body>
-    <h1>Welcome to My Demo Website</h1>
+    <header class="header">
+        <h1>Welcome to My Demo Website</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a>
+                    <ul class="dropdown">
+                        <li><a href="">link-1</a></li>
+                        <li><a href="">link-2</a></li>
+                        <li><a href="">link-3</a></li>
+                        <li><a href="">link-4</a></li>
+                        <li><a href="">link-5</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Form</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Blogs...</h2>
+            <article class="blog">
+                <h3>my blog-1</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, nostrum ex! Pariatur omnis, ullam perferendis qui, numquam hic similique delectus illum magni suscipit recusandae quia? Fugit maiores exercitationem labore sit, sequi ducimus quisquam doloremque adipisci deserunt voluptatibus molestiae qui provident animi in rerum voluptatem dolores eum voluptatum magnam fugiat eius.</p>
+            </article>
+            <article class="blog">
+                <h3>my blog-2</h3>
+                <p>Debitis quas quam ducimus libero, aspernatur recusandae at fugiat consectetur ratione veniam odio error obcaecati minima autem qui alias perspiciatis esse aliquam numquam facilis iusto! Ipsum mollitia saepe facilis ipsam architecto excepturi optio incidunt, esse quod inventore veniam, quos dolorem odio ab deleniti adipisci totam beatae et soluta, quidem amet.</p>
+            </article>
+            <article class="blog">
+                <h3>my blog-3</h3>
+                <p>Soluta necessitatibus maxime inventore dolorum temporibus dolores ratione omnis! Officia laboriosam ad temporibus repellendus fugiat ab doloremque corporis ex qui adipisci magni, voluptas voluptates explicabo necessitatibus, saepe sapiente animi? Quod voluptatem porro harum? Exercitationem debitis earum vel totam laudantium ratione dolores alias, nam modi voluptatem reprehenderit molestiae excepturi sapiente doloribus!</p>
+            </article>
+            <article class="blog">
+                <h3>my blog-4</h3>
+                <p>Distinctio reiciendis quidem aperiam sequi, eaque soluta odio numquam corrupti vel veritatis earum similique quam, rerum voluptas assumenda nulla consequuntur ab provident dolorum illo tempore reprehenderit repellendus sunt alias. Sequi illo facilis eius unde laboriosam, dolor nesciunt totam veniam hic accusantium voluptatum nobis et delectus odio a, perferendis animi ullam.</p>
+            </article>
+        </section>
+        <section>
+            <h3>Photos...</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate nam neque rerum eius veritatis repellendus! Facilis non deleniti ipsum ratione quia! Molestias officia maiores, commodi dolorem suscipit harum rerum cupiditate!</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>copyright 2022</p>
+    </footer>
 </body>
 </html>

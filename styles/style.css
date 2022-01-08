@@ -1,0 +1,62 @@
+body{
+    font-family: 'Luxurious Roman', cursive;
+    background-color: beige;
+}
+header{
+    background-color: bisque;
+}
+h1:hover{
+    color: lightsalmon;
+}
+nav{
+    background-color: lightgrey;
+}
+main{
+    background-color: lightgrey;
+    text-align: justify;
+}
+
+
+.container{
+    background-color: linen;
+}
+.flex{
+    margin: 50px 0;
+    background-color: lightsalmon;
+    display: flex;
+
+}
+.div-flex{
+    height: 300px;
+    width: 33%;
+    background-color: bisque;
+    border: black 1px solid;
+    border-radius: 10px;
+    margin: 1%;
+    padding: 1%;
+}
+.div-flex img, .div-flex2 img{
+    width: 20%;
+}
+.div-flex h2{
+    border-left: 4px solid;
+    border-image: linear-gradient(salmon, gray);
+    border-image-slice: 1;
+    padding: 5px 0;
+}
+.div-flex2{
+    height: 300px;
+    width: 48%;
+    background-color: bisque;
+    border: black 1px solid;
+    border-radius: 10px;
+    margin: 1%;
+    padding: 1%;
+    box-shadow: 5px 5px 20px gray;
+}
+footer{
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}

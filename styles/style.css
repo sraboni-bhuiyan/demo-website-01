@@ -44,12 +44,23 @@ main{
     border-image-slice: 1;
     padding: 5px 0 5px 5px;
 }
+#overflow-box1{
+    overflow: hidden;
+}
+#overflow-text{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#overflow-box2{
+    overflow: scroll;
+    overflow-x: hidden;
+}
 .div-flex2{
     height: 300px;
     width: 48%;
     background-color: bisque;
     border: black 1px solid;
-    border-radius: 10px;
     margin: 1%;
     padding: 1%;
 }

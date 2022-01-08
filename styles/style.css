@@ -24,7 +24,7 @@ main{
     margin: 50px 0;
     background-color: lightsalmon;
     display: flex;
-
+    box-shadow: 5px 5px 20px gray;
 }
 .div-flex{
     height: 300px;
@@ -42,7 +42,7 @@ main{
     border-left: 4px solid;
     border-image: linear-gradient(salmon, gray);
     border-image-slice: 1;
-    padding: 5px 0;
+    padding: 5px 0 5px 5px;
 }
 .div-flex2{
     height: 300px;
@@ -52,7 +52,6 @@ main{
     border-radius: 10px;
     margin: 1%;
     padding: 1%;
-    box-shadow: 5px 5px 20px gray;
 }
 footer{
     background-color: bisque;
